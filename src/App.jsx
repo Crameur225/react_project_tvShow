@@ -61,7 +61,8 @@ export function App(){
     // function setCurrentTVShowFromRecomendations(tvShow){
     //    alert(JSON.stringify(tvShow))
     // }
-
+    console.log(`${process.env.REACT_APP_API_KEY_PARAM}`);
+    
     return (
 
     <div className={s.main_container}
